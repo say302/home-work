@@ -1,0 +1,76 @@
+.Avatar {
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  line-height: 1.5;
+  color: #88ee8e;
+}
+
+.Avatar_list {
+  border: 1px solid #dbdbdb;
+  width: 420px;
+  height: 225px;
+  padding: 100px;
+  list-style: none;
+  text-align: center;
+  position: relative;
+}
+
+li {
+  display: inline-block;
+  margin: 9px;
+}
+
+img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.circle-off {
+  background-color: #dbdbdb;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 160px;
+  margin-left: 45px;
+}
+
+.circle-on {
+  background-color: #4cfe88;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 160px;
+  margin-left: 45px;
+}
+
+.circle-off1 {
+  background-color: #dbdbdb;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 245px;
+  margin-left: 45px;
+}
+
+.circle-on1 {
+  background-color: #4cfe88;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 245px;
+  margin-left: 45px;
+}
