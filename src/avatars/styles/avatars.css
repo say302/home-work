@@ -8,6 +8,9 @@
   padding-bottom: 6px;
   line-height: 1.5;
   color: #88ee8e;
+  a {
+    text-decoration: none;
+  }
 }
 
 .Avatar_list {
