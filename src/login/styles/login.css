@@ -1,0 +1,108 @@
+@import "./common/a11y.css";
+@import "./common/best-reset.css";
+
+body {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+}
+
+:root {
+  --font-color: #121212;
+  --font-size: 16px;
+}
+
+.all {
+  margin: 0 auto;
+  padding-block: 4.375rem;
+  color: var(--font-color);
+}
+
+.company-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.login {
+  --login-width: 18.125rem;
+  --login-height: 3rem;
+  margin: 0 auto;
+  padding-block: 3rem;
+}
+
+.login-more {
+  --space: 0.625rem;
+  --space20: 1.25rem;
+  padding-bottom: var(--space);
+  text-align: center;
+  width: 100%;
+}
+
+.input-style {
+  width: var(--login-width);
+  height: var(--login-height);
+  border: 1px solid #121212;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .input-style {
+    width: 28.75rem;
+    height: 3rem;
+  }
+}
+
+.input-style {
+  padding-left: 0.875rem;
+}
+
+.login-more2 {
+  --space: 0.625rem;
+  --space20: 1.25rem;
+  padding-bottom: var(--space20);
+}
+
+.user-login {
+  --user-login-width: 18.0625rem;
+  --user-login-heght: 2.8125rem;
+  background-color: #03cf5d;
+  border: cadetblue;
+  width: var(--user-login-width);
+  height: var(--user-login-heght);
+  strong {
+    color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  .user-login {
+    width: 28.75rem;
+
+    /* transition: width 0.5s; */
+    transition-delay: width 0.5s;
+    /* height: 3rem; */
+  }
+}
+
+.element {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0.625rem;
+  .check-box {
+    margin-right: 2px;
+    font-size: 0.875rem;
+  }
+}
